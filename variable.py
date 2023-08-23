@@ -16,6 +16,10 @@ delivery=int(input("배달료 입력:"))
 listprice=price*float((1-discount))+delivery
 print(listprice)
 
-이름 현재년 출생년 입력해 나이계산
+4. 이름 현재년 출생년 입력해 나이계산
+nowyear=int(input("현재 연도 입력:"))
+bryear=int(input("태어난 연도 입력:"))
+age=nowyear-bryear
+print(str("너의 나이:")+str(age))
 
 연월일 입력받아 ....-..-..형태로 출력
