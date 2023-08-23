@@ -9,7 +9,12 @@ py=3
 L=2*py*r
 print(L)
 
-온라인 서점서 결제할 금액계산
+3. 책 값, 할인율, 배송료 계산해 결제할 금액 계산
+price=int(input("책 값:"))
+discount=float(input("할인율 입력:(1이 100퍼센트)"))
+delivery=int(input("배달료 입력:"))
+listprice=price*float((1-discount))+delivery
+print(listprice)
 
 이름 현재년 출생년 입력해 나이계산
 
